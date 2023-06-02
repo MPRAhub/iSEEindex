@@ -129,7 +129,7 @@ iSEEindex <- function(bfc, FUN.datasets, FUN.initial = NULL) {
     }
     iSEE(
         landingPage=.landing_page(bfc, FUN.datasets, FUN.initial),
-        appTitle = sprintf("iSEEindex - v%s",
+        appTitle = sprintf("iSEEindex-MPRAbase - v%s",
             packageVersion("iSEEindex")
             )
         )
