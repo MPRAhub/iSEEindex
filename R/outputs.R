@@ -70,7 +70,8 @@
             dataset_info <- pObjects$datasets_table[which_dataset, , drop=FALSE]
             contents <- markdown(paste0(
                 "# ", sprintf("%s", dataset_info[[.datasets_title]]), "\n\n",
-                "**BiocFileCache**: ", dataset_info$title, "\n\n"
+                "**BiocFileCache**: ", dataset_info$title, "\n\n",
+                "**GEO ID:** ", dataset_info$GEO
             ))
         }
         contents
